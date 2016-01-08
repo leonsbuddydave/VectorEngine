@@ -1,0 +1,34 @@
+{
+  "name": "vector-engine",
+  "version": "1.0.0",
+  "description": "Vector-based game engine.",
+  "main": "bin/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw"
+  },
+  "window": {
+  	"frame": false,
+  	"toolbar": false
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "gulp-load-plugins": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^4.2.2",
+    "gulp-typescript": "^2.10.0",
+    "gulp-util": "^3.0.7",
+    "nw-builder": "^2.2.0",
+    "rimraf": "^2.5.0",
+    "tslint": "^3.2.1"
+  }
+}
